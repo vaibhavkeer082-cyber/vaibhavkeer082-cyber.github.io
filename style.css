@@ -1,3 +1,4 @@
+```css
 * {
     margin: 0;
     padding: 0;
@@ -16,9 +17,9 @@ body {
 }
 
 
-/* ------------------------------
+/* =========================================================
    GENERAL
------------------------------- */
+========================================================= */
 
 .container {
     width: min(1100px, 90%);
@@ -31,9 +32,9 @@ a {
 }
 
 
-/* ------------------------------
+/* =========================================================
    NAVBAR
------------------------------- */
+========================================================= */
 
 .navbar {
     position: sticky;
@@ -80,9 +81,9 @@ nav a:hover {
 }
 
 
-/* ------------------------------
+/* =========================================================
    HERO
------------------------------- */
+========================================================= */
 
 .hero {
     min-height: 78vh;
@@ -95,16 +96,21 @@ nav a:hover {
 
 .eyebrow {
     color: #777;
+
     font-size: 0.75rem;
     font-weight: bold;
+
     letter-spacing: 3px;
+
     margin-bottom: 18px;
 }
 
 .hero h1 {
     font-size: clamp(3.5rem, 9vw, 8rem);
+
     line-height: 0.9;
     letter-spacing: -6px;
+
     font-weight: 900;
 }
 
@@ -116,6 +122,7 @@ nav a:hover {
     max-width: 600px;
 
     color: #999;
+
     font-size: 1.1rem;
 
     margin-top: 30px;
@@ -123,9 +130,9 @@ nav a:hover {
 }
 
 
-/* ------------------------------
+/* =========================================================
    BUTTON
------------------------------- */
+========================================================= */
 
 .button {
     display: inline-block;
@@ -147,9 +154,9 @@ nav a:hover {
 }
 
 
-/* ------------------------------
-   ARTICLES
------------------------------- */
+/* =========================================================
+   ARTICLES / HOME PAGE
+========================================================= */
 
 .articles {
     padding: 120px 0;
@@ -161,10 +168,10 @@ nav a:hover {
 
 .section-heading h2 {
     font-size: clamp(3rem, 7vw, 6rem);
+
     line-height: 0.9;
     letter-spacing: -4px;
 }
-
 
 .article-grid {
     display: grid;
@@ -189,19 +196,23 @@ nav a:hover {
 
 .article-number {
     color: #444;
+
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 .category {
     color: #777;
+
     font-size: 0.7rem;
-    letter-spacing: 2px;
     font-weight: bold;
+
+    letter-spacing: 2px;
 }
 
 .article-card h3 {
     font-size: clamp(1.8rem, 4vw, 3rem);
+
     line-height: 1;
     letter-spacing: -1px;
 
@@ -214,6 +225,7 @@ nav a:hover {
 
 .article-description {
     max-width: 650px;
+
     color: #888;
 }
 
@@ -222,10 +234,10 @@ nav a:hover {
 
     margin-top: 25px;
 
+    color: #ccc;
+
     font-size: 0.75rem;
     font-weight: bold;
-
-    color: #ccc;
 }
 
 .read-more:hover {
@@ -233,9 +245,9 @@ nav a:hover {
 }
 
 
-/* ------------------------------
+/* =========================================================
    ABOUT
------------------------------- */
+========================================================= */
 
 .about {
     padding: 120px 0;
@@ -246,6 +258,7 @@ nav a:hover {
 
 .about h2 {
     font-size: clamp(3rem, 7vw, 6rem);
+
     line-height: 0.9;
     letter-spacing: -4px;
 }
@@ -260,13 +273,158 @@ nav a:hover {
     margin-top: 35px;
 
     color: #888;
+
     font-size: 1.1rem;
 }
 
 
-/* ------------------------------
-   FOOTER
------------------------------- */
+/* =========================================================
+   ARTICLE PAGE
+========================================================= */
+
+.article-meta {
+    margin-top: 25px;
+
+    color: #555;
+
+    font-size: 0.75rem;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+.article-page {
+    padding: 100px 0 120px;
+}
+
+.article-content {
+    max-width: 850px;
+}
+
+.article-content p {
+    color: #aaa;
+
+    font-size: 1.08rem;
+    line-height: 1.9;
+
+    margin-bottom: 25px;
+}
+
+.article-content .lead {
+    color: #ddd;
+
+    font-size: 1.3rem;
+    line-height: 1.8;
+
+    margin-bottom: 35px;
+}
+
+.article-section {
+    margin-top: 110px;
+}
+
+.section-number {
+    color: #555 !important;
+
+    font-size: 0.75rem !important;
+    font-weight: bold;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 15px !important;
+}
+
+.article-section h2 {
+    color: #f5f5f5;
+
+    font-size: clamp(2.2rem, 5vw, 4rem);
+
+    line-height: 1;
+    letter-spacing: -2px;
+
+    margin-bottom: 35px;
+}
+
+.subheading {
+    display: block;
+
+    color: #555;
+
+    font-size: 0.45em;
+
+    letter-spacing: 1px;
+
+    margin-top: 12px;
+}
+
+
+/* =========================================================
+   BLOCKQUOTES
+========================================================= */
+
+.article-content blockquote {
+    margin: 45px 0;
+    padding: 25px 30px;
+
+    border-left: 3px solid #555;
+
+    background: #101010;
+
+    color: #ddd;
+
+    font-size: 1.15rem;
+    font-style: italic;
+    line-height: 1.8;
+}
+
+.article-content blockquote cite {
+    display: block;
+
+    margin-top: 15px;
+
+    color: #666;
+
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================================================
+   CODE
+========================================================= */
+
+.article-content code {
+    padding: 3px 7px;
+
+    background: #151515;
+
+    border: 1px solid #252525;
+
+    color: #ddd;
+
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+
+/* =========================================================
+   ARTICLE FOOTER
+========================================================= */
+
+.article-footer {
+    margin-top: 100px;
+    padding-top: 40px;
+
+    border-top: 1px solid #222;
+}
+
+
+/* =========================================================
+   WEBSITE FOOTER
+========================================================= */
 
 footer {
     padding: 30px 0;
@@ -278,6 +436,7 @@ footer {
     align-items: center;
 
     color: #555;
+
     font-size: 0.75rem;
 }
 
@@ -286,11 +445,13 @@ footer {
 }
 
 
-/* ------------------------------
+/* =========================================================
    MOBILE
------------------------------- */
+========================================================= */
 
 @media (max-width: 650px) {
+
+    /* NAVBAR */
 
     .nav-content {
         height: 60px;
@@ -300,6 +461,9 @@ footer {
         gap: 15px;
     }
 
+
+    /* HERO */
+
     .hero {
         min-height: 75vh;
     }
@@ -308,13 +472,18 @@ footer {
         letter-spacing: -3px;
     }
 
+
+    /* HOME ARTICLES */
+
     .articles {
         padding: 80px 0;
     }
 
     .article-card {
         grid-template-columns: 1fr;
+
         gap: 15px;
+
         padding: 25px;
     }
 
@@ -322,13 +491,53 @@ footer {
         font-size: 1rem;
     }
 
+
+    /* ABOUT */
+
     .about {
         padding: 80px 0;
     }
 
+
+    /* ARTICLE */
+
+    .article-page {
+        padding: 70px 0 90px;
+    }
+
+    .article-content p {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+
+    .article-content .lead {
+        font-size: 1.15rem;
+    }
+
+    .article-section {
+        margin-top: 80px;
+    }
+
+    .article-section h2 {
+        letter-spacing: -1px;
+    }
+
+    .article-content blockquote {
+        margin: 35px 0;
+        padding: 20px;
+
+        font-size: 1rem;
+    }
+
+
+    /* FOOTER */
+
     .footer-content {
         flex-direction: column;
+
         gap: 10px;
+
         align-items: flex-start;
     }
 }
+```
