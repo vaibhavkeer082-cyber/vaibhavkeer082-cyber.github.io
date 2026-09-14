@@ -540,4 +540,21 @@ footer {
         align-items: flex-start;
     }
 }
+.article-content ul {
+    margin: 25px 0 30px 25px;
+    color: #aaa;
+}
+
+.article-content li {
+    margin-bottom: 18px;
+    padding-left: 8px;
+    line-height: 1.8;
+}
+
+.article-content h3 {
+    color: #ddd;
+    font-size: 1.4rem;
+    margin: 45px 0 20px;
+    line-height: 1.3;
+}
 ```
